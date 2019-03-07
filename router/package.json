@@ -1,0 +1,12 @@
+{
+  "name": "router",
+  "version": "0.0.1",
+  "description": "Router: Redux",
+  "main": "server.js",
+  "author": "Jared Beller",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-tree-router": "^0.4.5"
+  }
+}
