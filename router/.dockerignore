@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+
+app.yaml
+finder.py
+PROBLEM.md
