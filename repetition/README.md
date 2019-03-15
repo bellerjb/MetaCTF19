@@ -12,4 +12,5 @@ For more information, see `repetition.pdf`.
 Using a map, keep track of each new value until the next value is already in the
 map. Using a list to keep track of previous values will not work as the test
 cases are large enough to cause a noticible (multiple hours) slowdown from O(n)
-lookup time.
+lookup time. See `submissions/accepted/repetition.java` for my implementation of
+the solution.
