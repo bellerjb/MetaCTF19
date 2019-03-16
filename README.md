@@ -2,6 +2,8 @@
 This repository contains my problems, as well as their intended solutions for
 Deep Run High School's 2019 MetaCTF competition. Each problem is organized in
 it's own folder, and has its own README with more detail about each problem.
+There is also some solutions made during the competition for testing in
+`guestsolutions`.
 
 ## Problems
 | Category         | Problem                 | Problem Text                                                                                                                                                                                                                                                                                                                                                                                                                                               | Hint                                                                                  | Difficulty     |
