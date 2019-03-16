@@ -1,0 +1,43 @@
+\RequirePackage[l2tabu, orthodox]{nag}
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\pagenumbering{gobble}
+
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{textcomp}
+\usepackage{csquotes}
+
+\begin{document}
+
+\begin{center}
+   \Large\textbf{This Before That}
+\end{center}
+
+An important step to getting things done is identifying what actually needs to be done. An important part of MetaCTF strategy is budgeting your time wisely. Even though we are the omnipotent problem writers, we still need some order so we can get our tasks done. Many of our tasks rely on other tasks, so we need to plan how to go about making the event run smoothly. For future competitions, can you write a program to help organize our timing for us?
+
+\vspace*{.3in} \noindent {\large \bfseries Input Format}\\
+
+The input will consist of a number, \(n\), representing the number of tasks that require a previous action, followed by \(n\) constraints.
+
+\vspace*{.3in} \noindent {\large \bfseries Output Format}\\
+
+Your output will be a valid ordering of the actions where all constraints are met. Actions should only be performed once. If there is no valid ordering, output \enquote{IMPOSSIBLE!} Any valid solution is accepted.
+
+\vspace*{.3in} \noindent {\large \bfseries Sample Input}
+\begin{verbatim}
+5
+Turn on server -> Start DOMjudge
+Turn on server -> Start grader
+Turn on server -> Grade solution
+Start grader -> Grade solution
+Start DOMjudge -> Grade solution
+\end{verbatim}
+
+\vspace*{.3in} \noindent {\large \bfseries Sample Output}
+\begin{verbatim}
+Turn on server -> Start DOMjudge -> Start grader -> Grade solution
+\end{verbatim}
+
+\end{document}

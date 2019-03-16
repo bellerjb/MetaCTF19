@@ -1,0 +1,6 @@
+5
+Turn on server -> Start DOMjudge
+Turn on server -> Start grader
+Turn on server -> Grade solution
+Start grader -> Grade solution
+Start DOMjudge -> Grade solution
